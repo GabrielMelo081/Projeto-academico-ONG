@@ -1,0 +1,20 @@
+/* Tablet */
+@media (max-width: 900px) {
+  .hero { padding: 56px 0; }
+  .hero-grid { flex-direction: column; align-items: flex-start; gap: 32px; }
+  .hero-imagem { width: 240px; flex: none; }
+  .secao { padding: 56px 0; }
+  .duas-colunas { gap: 32px; }
+}
+
+/* Celular */
+@media (max-width: 640px) {
+  .topo { position: static; }
+  .topo-conteudo { flex-direction: column; align-items: center; }
+  .menu-lista { justify-content: center; }
+  .secao { padding: 44px 0; }
+  .hero-botoes { flex-direction: column; }
+  .hero-botoes .botao { text-align: center; }
+  .botao-primario { align-self: stretch; text-align: center; }
+  .rodape-grid { flex-direction: column; }
+}
